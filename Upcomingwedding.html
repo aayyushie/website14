@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title> 
+    <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <div class="img1">
+    <img class="admin-logo" src ="fotogtrafialogo2 copy.png" alt=" ">
+    </div>
+    <div class="img2">̥
+        <img class="bell" src="image.png" alt="">
+    </div>
+    <div>
+       
+    </div>
+   
+        <div class="sidebar">
+            <div class="button-container">
+                <button class="manager-btn"> <i class="fa-solid fa-plus"></i> <span>Manager</span></button><br>
+                <button class="projects-btn"><i class="fa-solid fa-plus"></i><span>Projects</span></button>
+            </div>
+            <ul class="menu">
+              <h3>ANALYTICS</h3>
+              <div class="analytics">
+              <li><i class="fa-solid fa-house"></i> <a href="#">   Dashboard</a> <br></li>
+              <li><i class="fa-solid fa-chart-simple"></i><a href="#">     Total Sales</a></li> </div>
+
+                <h3>SUPPORT</h3>
+                <div class="support">
+                <li><i class="fa-solid fa-user"></i><a href="#"> Managers</a></li><br>
+                <li><i class="fa-solid fa-people-line"></i> <a href="#"> Freelancer</a></li><br>
+                <li><i class="fa-regular fa-folder"></i><a href="#">  Projects</a></li><br>
+                </div>
+                <div class="div3">
+                    <li><i class="fa-solid fa-gear"></i><a href="#"> Settings</a></li><br>
+                    <li><i class="fa-solid fa-right-from-bracket"></i><a href="#"> Logout</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="tablehead">
+            Upcoming Weddings
+        </div>
+        <div class="table">
+        <table>
+            <tr>
+              <th>Wedding Name</th>
+              <th>Venue</th>
+              <th>Date</th>
+              <th>Phone Number</th>
+              <th>Team Members</th>
+            </tr>
+            <tr>
+              <td>Aayush & Aakshi's Wedding</td>
+              <td>-----</td>
+              <td>2024-05-15</td>
+              <td>123-456-7890</td>
+              <td>a,b,c,d</td>
+            </tr>
+            <tr>
+                <td>Aayush & Aakshi's Wedding</td>
+                <td>-----</td>
+                <td>2024-05-15</td>
+                <td>123-456-7890</td>
+                <td>a,b,c,d</td>
+            </tr>
+          </table>
+    </div>
+    </body>
+    </html>
+    
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .sidebar {
+        width: 250px;
+        height: 90vh;
+        background-color: white;
+        margin-top: 110px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 20px;
+        padding-top: 100px;
+        box-sizing: border-box;
+    }
+    .menu {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px;
+        margin-top: 50px;
+        font-display: 10px;  
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    }
+    
+    .menu li {
+        display: inline-block;
+        vertical-align: top;
+        width: 150px;
+        padding: 10px 0;
+    }
+    
+    .menu li a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        transition: color 0.3s ease;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: inline-block;
+    }
+    
+    .menu li a:hover {
+        color: #ddd;
+    }
+    .img1{
+        margin-left: -10px;
+        margin-right:-10px; 
+        padding-bottom: 50px; 
+        padding-left: 30px; 
+        border: 1px solid grey; 
+    }
+    .admin-logo {
+        width: 240px; 
+        height: 49px; 
+        margin-top: 18px;
+        margin-bottom: -30px;
+    }
+   .img2{
+        margin-left: 85%;
+        margin-top: -70px;
+   } 
+   .bell 
+   {
+    width: 58px;
+    height: 40px;
+   }
+   .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: -80px;
+    }
+
+.manager-btn,
+.projects-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: -20px;
+}
+.manager-btn {
+    /* margin-right: 1000px; */
+}
+
+.projects-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.tablehead{
+    font-size: 30px;
+    margin-left: 18%;
+    margin-top: 61px;
+}
+.fa-solid ::before{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+table {
+            margin-left: 18%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid #ddd;
+            padding: 18px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+.analytics{
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.support{
+    margin-top: -15px;
+}
+.div3{
+   margin-top: 40px;
+}
+</style>
+</html>
